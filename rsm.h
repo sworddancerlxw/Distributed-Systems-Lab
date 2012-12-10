@@ -238,4 +238,5 @@ template<class S, class A1, class A2, class A3, class A4, class A5, class R> voi
   reg1(proc, new h1(sob, meth));
 }
 
+
 #endif /* rsm_h */

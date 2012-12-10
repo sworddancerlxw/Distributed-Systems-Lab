@@ -136,6 +136,7 @@ locked_handler:
 lock_protocol::status
 lock_client_cache::release(lock_protocol::lockid_t lid)
 {
+
   m_lock_map.lock();
 
   if (lock_map[lid].flag_revoke && lock_map[lid].thread_counter == 0) 
